@@ -5,49 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bio Contact</title>
-
+    <link href="assets/css/reset.css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<h1>Alfonso Miguel Bernardo</h1>
-
-<nav>
-    <a href="">About</a>
-</nav>
-
-<nav>
-    <a href="">Portfolio</a>
-</nav>
-
-<nav>
-    <a href="">Contact</a>
-</nav>
 
 
-<body>
+<body background="assets/images/newback.png">
 
-    <h2>Contact</h2>
+        <div class="headerWrapper">
 
-    <h3>Name</h3>
-    <a>Alfonso Miguel A. Bernardo</a>
+            <h1 class="name">Alfonso Miguel Bernardo</h1>
+            
+            <nav class="links">
+            
+                <a href="index.html">About</a> </a></a>
+                <a href="portfolio.html">Portfolio</a> </a></a> 
+                <a href="contact.html">Contact</a> </a></a>
+            
+            </nav>
+            
+        </div>
 
-    <h3>Email</h3>
-    <a>Ghozt24@gmail.com</a>
 
-    <h3>Message</h3>
-    <a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta alias ex amet eligendi tempora tenetur nihil aperiam? Est quasi laborum qui. Esse, commodi nisi maxime quam quidem sequi ad consequatur?</a> <br><br>
+    <div id="contactWrapper">
 
-    <button>Submit</button>
     
+    <form>
 
-    <h3>Connect with me</h3>
+            <h2>Contact</h2>
+            <hr>
 
-    <a href="https://www.linkedin.com/in/alfonso-miguel-bernardo-75a678167/" target="_blank">
-         <img src="assets/images/li.png" style="width: 5%; height: 5%;"/> 
+            Name:<br>
+            <input placeholder="John Smith" type="text" name="Name"><br>
+            Email:<br>
+            <input placeholder="example@gmail.com" type="text" name="Email"><br>
+            
+            Message:<br>
+            <textarea rows="10" cols="68">   
+                    </textarea>
+                    <br>
+            <button>Submit</button>
+    </form>
+
+    
+    </div>
+
+
+    
+    <div id="connectLink"
+    >
+    <h3>Connect with Me</h3>
+
+    <hr>
+
+    <a class="immageMover" href="https://www.linkedin.com/in/alfonso-miguel-bernardo-75a678167/" target="_blank">
+         <img src="assets/images/li.png" style="width: 40px; height: 40px;"/> 
         </a>
 
 
-    <a href="https://stackoverflow.com/users/10078455/a-m-bernardo" target="_blank">
-        <img src="assets/images/so.png" style="width:12%; height:12%;"/>
+    <a class="imageMover" href="https://stackoverflow.com/users/10078455/a-m-bernardo" target="_blank">
+        <img src="assets/images/stackov.png" style="width:40px; height:40px;"/>
     </a>
+
+    <a class="imageMover" href="https://github.com/AMBernardo" target="_blank">
+        <img src="assets/images/githubicon.png" style="width:40px; height:40px;"/>
+    </a>
+
+</div>
+
+
+    <footer class="copyRight">
+
+            <div class="line">
+    
+            </div>
+        
+        <a id="footLine">Copyright 2018</a>
+    
+    </footer>
+    
 </body>
 </html>
