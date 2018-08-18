@@ -1,3 +1,5 @@
+/* General stuff */
+
 html, body{
     margin: 0 auto;
     padding: 0;
@@ -19,6 +21,7 @@ h3{
 }
 
 /* Header section */
+
 .headerWrapper{
     background: #ffffff;
     width: 100%;
